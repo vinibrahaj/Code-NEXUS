@@ -111,18 +111,6 @@ Output:
 out/clean.csv
 
 ```
-Example input
-id,name,age,email
-1,  Alice   , 23  , alice@example.com
-2,BOB,  ,bob@example.com
-3,   charlie,17,charlie@example.com
-4,,29,no_name@example.com
-
-Example output
-id,name,age,email
-1,Alice,23,alice@example.com
-2,BOB,,bob@example.com
-3,charlie,17,charlie@example.com
 
 ## Error handling
 
