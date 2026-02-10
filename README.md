@@ -21,23 +21,23 @@ The same pipeline logic can be reused with different input formats (CSV, JSON, s
 ## Project structure
 
 .
-├── adapters/
-│ ├── csv_adapter.py
-│ ├── json_adapter.py
-│ └── stream_adapter.py
-├── stages/
-│ ├── base.py
-│ ├── input_stage.py
-│ ├── transform_stage.py
-│ └── output_stage.py
-├── pipelines/
-│ └── default_pipeline.py
-├── manager.py
-├── pipeline.py
-├── run.py
-├── create_sample_data.py
-└── data/
-└── messy.csv
+- ├── adapters/
+- │ ├── csv_adapter.py
+- │ ├── json_adapter.py
+- │ └── stream_adapter.py
+- ├── stages/
+- │ ├── base.py
+- │ ├── input_stage.py
+- │ ├── transform_stage.py
+- │ └── output_stage.py
+- ├── pipelines/
+- │ └── default_pipeline.py
+- ├── manager.py
+- ├── pipeline.py
+- ├── run.py
+- ├── create_sample_data.py
+- └── data/
+- └── messy.csv
 
 
 ---
