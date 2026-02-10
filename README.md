@@ -36,8 +36,6 @@ The same pipeline logic can be reused with different input formats (CSV, JSON, s
 - ├── pipeline.py
 - ├── run.py
 - ├── create_sample_data.py
-- └── data/
-- └── messy.csv
 
 
 ---
